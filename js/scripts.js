@@ -10,6 +10,7 @@ createApp({
     return {
         message: 'Hello Vue!',
         messageH1: 'Mepiace Vue.js',
+        containerH: 'container',
         image: {
             imageTitle: 'Vue.js',
             imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png',

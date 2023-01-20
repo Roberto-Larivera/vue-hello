@@ -11,11 +11,13 @@
 <body>
 
     <div id="app">
-        {{ message }}
-
-        <h1>{{messageH1}}</h1>
-
-        <img :src="image.imageSrc" :class="image.imageClass" :alt="image.imageTitle">
+       <main>
+        <!-- {{ message }} -->
+        <div :class="containerH">
+            <img :src="image.imageSrc" :class="image.imageClass" :alt="image.imageTitle">
+            <h1>{{messageH1}}</h1>
+        </div>
+       </main>
 
 
     </div>
